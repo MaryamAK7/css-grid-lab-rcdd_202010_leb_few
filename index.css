@@ -9,7 +9,8 @@ body {
   width: 100vw;
   /* your properties here */
   display: grid;
-  grid-template: [header-start] 1fr [header-start]  1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr;
+  grid-gap: 5px;
 }
 
 .grid-item {
